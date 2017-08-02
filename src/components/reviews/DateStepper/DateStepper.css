@@ -1,0 +1,28 @@
+.stepperDate {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px; }
+  .stepperDate .stepperImage {
+    padding: 5px;
+    border: 2px solid #d8d8d8;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px; }
+    .stepperDate .stepperImage img {
+      display: block;
+      border-radius: 50%;
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+  .stepperDate .stepperTitle {
+    text-align: center;
+    font-weight: 700; }
+  .stepperDate .stepperSubtitle {
+    text-align: center; }
+  .stepperDate.activeStepper .stepperImage {
+    border-color: red; }
+  .stepperDate.activeStepper .stepperTitle, .stepperDate.activeStepper .stepperSubtitle {
+    color: red; }
+  .stepperDate.activeStepper:before, .stepperDate.activeStepper:after {
+    border-color: red; }

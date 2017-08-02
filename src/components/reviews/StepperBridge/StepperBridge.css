@@ -1,0 +1,24 @@
+.bridge, .stepperBridge:before, .stepperBridge:after {
+  display: block;
+  content: ' ';
+  position: absolute;
+  top: 33%;
+  width: 25px;
+  height: 2px;
+  background: #d8d8d8; }
+
+.stepperBridge {
+  position: relative;
+  display: inline-block; }
+  .stepperBridge.activeStepper:before {
+    background: linear-gradient(to right, #d8d8d8 0%, red 100%); }
+  .stepperBridge.activeStepper:after {
+    background: linear-gradient(to right, red 0%, #d8d8d8 100%); }
+  .stepperBridge:before {
+    left: 0; }
+  .stepperBridge:after {
+    right: 0; }
+  .stepperBridge:first-child:before {
+    content: none; }
+  .stepperBridge:last-child:after {
+    content: none; }

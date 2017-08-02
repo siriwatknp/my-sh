@@ -1,0 +1,51 @@
+$active-color: red;
+$normal-color: #d8d8d8;
+$image-size: 100px;
+$weight: 2px;
+
+.bridge {
+  display: block;
+  content: ' ';
+  position: absolute;
+  top: 33%;
+  width: 0.25*$image-size;
+  height: $weight;
+  background: $normal-color;
+}
+
+.stepperBridge {
+  position: relative;
+  display: inline-block;
+
+  &.activeStepper {
+    &:before {
+      background: linear-gradient(to right, $normal-color 0%, $active-color 100%);
+    }
+
+    &:after {
+      background: linear-gradient(to right, $active-color 0%, $normal-color 100%);
+    }
+  }
+
+  &:before {
+    @extend .bridge;
+    left: 0;
+  }
+
+  &:after {
+    @extend .bridge;
+    right: 0;
+  }
+
+  &:first-child {
+    &:before {
+      content: none;
+    }
+  }
+
+  &:last-child {
+    &:after {
+      content: none;
+    }
+  }
+}

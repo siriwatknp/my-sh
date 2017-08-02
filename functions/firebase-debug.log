@@ -1,0 +1,27 @@
+[debug] [2017-07-31T16:54:44.719Z] ----------------------------------------------------------------------
+[debug] [2017-07-31T16:54:44.724Z] Command:      /Users/siriwatknp/.nvm/versions/node/v7.10.0/bin/node /Users/siriwatknp/.nvm/versions/node/v7.10.0/bin/firebase serve --only functions
+[debug] [2017-07-31T16:54:44.724Z] CLI Version:  3.9.1
+[debug] [2017-07-31T16:54:44.724Z] Platform:     darwin
+[debug] [2017-07-31T16:54:44.724Z] Node Version: v7.10.0
+[debug] [2017-07-31T16:54:44.725Z] Time:         Mon Jul 31 2017 23:54:44 GMT+0700 (ICT)
+[debug] [2017-07-31T16:54:44.725Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-07-31T16:54:44.747Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-07-31T16:54:44.748Z] > authorizing via signed-in user
+[debug] [2017-07-31T16:54:44.751Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/react-app-ce8ba  
+ Mon Jul 31 2017 23:54:44 GMT+0700 (ICT)
+[debug] [2017-07-31T16:54:46.338Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-31T16:54:46.339Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/react-app-ce8ba/tokens  
+ Mon Jul 31 2017 23:54:46 GMT+0700 (ICT)
+[debug] [2017-07-31T16:54:47.442Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/siriwatknp/Documents/practices/react-practice'...
+[info] 
+[info] i  functions: Preparing to emulate HTTPS functions. Support for other event types coming soon.
+[debug] [2017-07-31T16:54:48.045Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/react-app-ce8ba  
+ Mon Jul 31 2017 23:54:48 GMT+0700 (ICT)
+[debug] [2017-07-31T16:54:48.046Z] >>> HTTP REQUEST GET https://apikeys.googleapis.com/v1/projects/react-app-ce8ba/apiKeys  
+ Mon Jul 31 2017 23:54:48 GMT+0700 (ICT)
+[debug] [2017-07-31T16:54:49.524Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-31T16:54:49.643Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: app: http://localhost:5002/react-app-ce8ba/us-central1/app

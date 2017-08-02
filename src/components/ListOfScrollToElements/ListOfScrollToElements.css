@@ -1,0 +1,11 @@
+.isSticky {
+  position: fixed; }
+
+.listOfScrollToElements {
+  background: #f2f2f2;
+  padding: 10px;
+  min-width: 200px; }
+  .listOfScrollToElements a {
+    color: #626262; }
+    .listOfScrollToElements a:hover {
+      color: #000000; }
